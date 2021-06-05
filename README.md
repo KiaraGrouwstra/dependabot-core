@@ -233,3 +233,16 @@ recurring payments from Europe, check them out.
 [bump]: https://github.com/gocardless/bump
 [bump-core]: https://github.com/gocardless/bump-core
 [gocardless]: https://gocardless.com
+
+```bash
+# clear; bundle exec rspec ./spec/dependabot/haskell/version_spec.rb
+# clear; bundle exec rspec ./spec/dependabot/haskell/requirement_spec.rb
+# clear; bundle exec rspec ./spec/dependabot/haskell/metadata_finder_spec.rb
+# clear; bundle exec rspec ./spec/dependabot/haskell/file_fetcher_spec.rb
+# clear; bundle exec rspec ./spec/dependabot/haskell/file_parser_spec.rb
+# clear; bundle exec rspec ./spec/dependabot/haskell/metadata_finders/base/changelog_finder_spec.rb
+# clear; bundle exec rspec ./spec/dependabot/haskell/pull_request_creator/labeler_spec.rb
+clear; bundle exec rspec ./spec/dependabot/haskell/file_updater_spec.rb
+clear; bundle exec rspec ./spec/dependabot/haskell/update_checker/requirements_updater_spec.rb
+clear; bundle exec rspec ./spec/dependabot/haskell/update_checker_spec.rb
+```
